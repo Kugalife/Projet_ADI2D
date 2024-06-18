@@ -1,0 +1,10 @@
+Les implémentations des différentes fonctions ainsi que les codes tests
+se trouvent dans les répertoire Qx.
+
+Le répertoire ADI2D_v1 implémente la résolution itérative de \Delta u +f =0.
+La solution numérique est contenue dans le fichier out.
+La solution analytique est dans le fichier ref.
+
+Le répertoire ADI2D_param_optim contient le code pour étudier l'évolution
+du nombre d'itérations en fonction de \omega. Le résultat est stocké
+dans le fichier niter

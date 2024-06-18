@@ -1,0 +1,11 @@
+0_ADI2D :
+f(x,y) = 2*x(1-x)+2*y(1-y)
+=> solution : u(x,y) = x*(1-x)*y*(1-y)
+
+make; ./ADI2D
+
+1_ADI2D :
+f(x,y) = -2*pi^2*sin(pi*x)*sin(pi*x)
+=> solution : u(x,y) = sin(pi*x)*sin(pi*y)
+
+

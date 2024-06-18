@@ -1,0 +1,46 @@
+Répertoire 0_solveLU
+Résolution de M*X = RHS
+où RHS est un vecteur de 1 de dimension nl
+et M(omega) matrice tridiag de rang nl avec omega=1
+
+Compilation et execution du test
+cd 0_solveLU; make; ./solverLU
+
+Sortie:
+Matrice M
+row 0 :    0.00000   51.00000  -25.00000
+row 1 :  -25.00000   51.00000  -25.00000
+row 2 :  -25.00000   51.00000  -25.00000
+row 3 :  -25.00000   51.00000  -25.00000
+row 4 :  -25.00000   51.00000  -25.00000
+row 5 :  -25.00000   51.00000    0.00000
+----------------------------
+Solution 
+row 0 col 0 :    0.10133
+row 1 col 0 :    0.16671
+row 2 col 0 :    0.19876
+row 3 col 0 :    0.19876
+row 4 col 0 :    0.16671
+row 5 col 0 :    0.10133
+M X 
+row 0 col 0 :    1.00000
+row 1 col 0 :    1.00000
+row 2 col 0 :    1.00000
+row 3 col 0 :    1.00000
+row 4 col 0 :    1.00000
+row 5 col 0 :    1.00000
+Norme infinie de RHS-M X : 0.000000
+
+Répertoire 1_computerRHS_solve
+Implémentation des routines computeRHSX, computeRHSY et solve.
+Interface légèrement différente de celle de l'énoncé pour computeRHSX, computeRHSY
+
+introduction de la fonction idx de numerotation unique sur la grille Nx x Ny 
+/*
+Entree : i, j
+Sortie : i+j*Nx  // Nx est une variable globale
+*/
+int idx(int i, int j){
+// ATTENTION aucune verification i in [0, Nx-1] et j in [0, Ny-1]
+    return i+j*Nx;
+    }

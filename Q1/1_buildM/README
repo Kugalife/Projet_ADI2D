@@ -1,0 +1,31 @@
+Compilation et execution du test
+make
+./exe
+
+Sortie:
+row 0 col 0 :    1.00000
+row 0 col 1 :    1.00000
+row 0 col 2 :    1.00000
+row 0 col 3 :    1.00000
+row 0 col 4 :    1.00000
+row 1 col 0 :    1.00000
+row 1 col 1 :    1.00000
+row 1 col 2 :    1.00000
+row 1 col 3 :    1.00000
+row 1 col 4 :    1.00000
+row 2 col 0 :    1.00000
+row 2 col 1 :    1.00000
+row 2 col 2 :    1.00000
+row 2 col 3 :    1.00000
+row 2 col 4 :    1.00000
+row 3 col 0 :    1.00000
+row 3 col 1 :    1.00000
+row 3 col 2 :    1.00000
+row 3 col 3 :    1.00000
+row 3 col 4 :    1.00000
+row 4 col 0 :    1.00000
+row 4 col 1 :    1.00000
+row 4 col 2 :    1.00000
+row 4 col 3 :    1.00000
+row 4 col 4 :    1.00000
+

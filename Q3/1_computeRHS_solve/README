@@ -1,0 +1,28 @@
+Compilation et execution du test
+make
+./solverLU
+
+Sortie:
+Matrice M
+row 0 :    0.00000   51.00000  -25.00000
+row 1 :  -25.00000   51.00000  -25.00000
+row 2 :  -25.00000   51.00000  -25.00000
+row 3 :  -25.00000   51.00000  -25.00000
+row 4 :  -25.00000   51.00000  -25.00000
+row 5 :  -25.00000   51.00000    0.00000
+----------------------------
+Solution 
+row 0 col 0 :    0.10133
+row 1 col 0 :    0.16671
+row 2 col 0 :    0.19876
+row 3 col 0 :    0.19876
+row 4 col 0 :    0.16671
+row 5 col 0 :    0.10133
+M X 
+row 0 col 0 :    1.00000
+row 1 col 0 :    1.00000
+row 2 col 0 :    1.00000
+row 3 col 0 :    1.00000
+row 4 col 0 :    1.00000
+row 5 col 0 :    1.00000
+Norme infinie de RHS-M X : 0.000000
